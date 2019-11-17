@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MDPHOTO</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mdfoto_account">MDPHOTO ACCOUNT</string>
+    <string name="email">Email</string>
+    <string name="dropbox_account">DROPBOX ACCOUNT</string>
+    <string name="new_account">New Account</string>
+
+    <string name="integrate1">Integrate</string>
+
+    <string name="dropbox_integrate">Dropbox Integration</string>
+
+
+    <string name="password">Password</string>
+
+    <string name="auto_login_enabled">Auto Login Enabled</string>
+
+    <string name="sync">SYNC</string>
+    <string name="photo_settings">PHOTO SETTINGS</string>
+    <!-- Todo Free A... Space ??? -->
+    <string name="free_space">Free Space</string>
+    <string name="store_photos">Store Photos in photo library</string>
+    <!-- Todo what should we do this with this option? -->
+    <string name="store_photos_explanation">If store photos disabled your will save only apps directory and will not synced with photos</string>
+    <string name="forget">Forget</string>
+    <string name="logout">Logout</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="radio_male">Male</string>
+    <string name="search_hint">Search Patient</string>
+    <string name="radio_female">Female</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="addphoto">AddPhoto</string>
+    <string name="dialog_title">Log Out?</string>
+    <string name="dialog_message" />
+    <string name="title_activity_patient">PatientActivity</string>
+    <string name="action_login">Login</string>
+    <string name="guide_screen">Please register or login for enable to add patients and photos.</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">tanım</string>
+    <string name="request_permission">izin</string>
+    <string name="intro_message">intro</string>
+    <string name="camera_error">Kamera hatası</string>
+    <string name="no_camera_permission">Kamera izni verilmedlir.</string>
+    <string name="ok">Ok</string>
+    <string name="internet_connection_error">You should have an active connection for login or registering. Please make an connection.</string>
+
+</resources>

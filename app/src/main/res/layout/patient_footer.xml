@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/footer_height"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:visibility="visible"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageButton
+            android:id="@+id/user_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/user_plus"
+            android:background="@android:color/transparent"
+            android:onClick="footerClick" />
+    </LinearLayout>
+
+
+
+    <View
+        android:layout_weight="7"
+        android:layout_width="0dp"
+        android:layout_height="10dp"></View>
+
+
+
+    <!--
+
+   <LinearLayout
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="3"
+       android:visibility="invisible"
+       android:gravity="center"
+       android:orientation="vertical">
+       <ImageButton
+           android:id="@+id/button_2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/cog"
+           android:background="@android:color/transparent"
+           android:onClick="footerClick" />
+
+   </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent">
+               <Button
+                   android:id="@+id/button_3"
+                   android:background="@android:color/transparent"
+                   android:text="@string/app_name"
+                   android:onClick="footerClick"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+           </LinearLayout>
+
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:gravity="center"
+               android:layout_weight="1"
+               android:layout_width="0dp"
+               android:layout_height="match_parent">
+
+
+               <Button
+                   android:id="@+id/button_4"
+                   android:background="@android:color/transparent"
+                   android:text="@string/app_name"
+                   android:onClick="footerClick"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+           </LinearLayout>
+
+       -->
+
+
+</LinearLayout>

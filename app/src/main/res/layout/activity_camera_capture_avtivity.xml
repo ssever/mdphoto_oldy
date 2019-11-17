@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_camera_capture_avtivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="labs.com.mdfoto.oldcamera.CameraCaptureAvtivity">
+
+    <labs.com.mdfoto.oldcamera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </labs.com.mdfoto.oldcamera.CameraSourcePreview>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="0dp"
+        android:layout_height="75dp"
+        android:alpha="0.5"
+        android:background="#FD070707"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/camButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:alpha="0.75"
+        android:onClick="onCek"
+        android:src="@drawable/camera"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/torchButton"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:alpha="0.75"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/camButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@android:drawable/radiobutton_off_background" />
+
+
+</android.support.constraint.ConstraintLayout>
+
